@@ -1,15 +1,8 @@
-Desenvolva um programa em c# com a seguinte descrição: 
+Acadêmicos:
 
-Exemplos:
-Comandos: [DIREITA, DIREITA]
-Posição Inicial: 0 Posição Final: 2
-Comandos: [ESQUERDA]
-Posição Inicial: 0 Posição Final: -1
-Comandos: [ESQUERDA, DIREITA, DIREITA, DIREITA, DIREITA, ESQUERDA]
-Posição Inicial: 0 Posição Final: 2
-
+Carlos Eduardo de Souza Leal
+Gustavo Lipinski
 ------------------------------------------------------------------------------------
-
 Ex1
 
 História de usuário 1
@@ -78,7 +71,6 @@ Os limites do trilho numérico devem ser números inteiros.
 O limite inferior deve ser menor ou igual ao limite superior.
 
 -----------------------------------------------------------------------------------
-
 Ex2
 
 História de usuário 1
@@ -139,7 +131,6 @@ Criar uma variável para armazenar os limites do trilho numérico.
 Verificar os limites do trilho antes de mover o trem.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-
 Ex3 
 
 História de usuário 1
