@@ -1,0 +1,200 @@
+Desenvolva um programa em c# com a seguinte descrição: 
+
+Exemplos:
+Comandos: [DIREITA, DIREITA]
+Posição Inicial: 0 Posição Final: 2
+Comandos: [ESQUERDA]
+Posição Inicial: 0 Posição Final: -1
+Comandos: [ESQUERDA, DIREITA, DIREITA, DIREITA, DIREITA, ESQUERDA]
+Posição Inicial: 0 Posição Final: 2
+
+------------------------------------------------------------------------------------
+
+Ex1
+
+História de usuário 1
+
+Como um usuário,
+
+Eu quero ser capaz de definir a lista de comandos para o trem,
+
+Para que eu possa testar diferentes cenários.
+
+Critério de aceitação:
+
+A lista de comandos deve ser uma sequência de strings, cada uma das quais representa um comando "DIREITA" ou "ESQUERDA".
+A posição inicial do trem deve ser 0.
+História de usuário 2
+
+Como um usuário,
+
+Eu quero ser capaz de visualizar a posição atual do trem,
+
+Para que eu possa acompanhar o progresso do trem.
+
+Critério de aceitação:
+
+A posição atual do trem deve ser exibida na tela.
+A posição atual do trem deve ser atualizada a cada comando executado.
+História de usuário 3
+
+Como um usuário,
+
+Eu quero ser capaz de obter a posição final do trem,
+
+Para que eu possa determinar o resultado do teste.
+
+Critério de aceitação:
+
+A posição final do trem deve ser retornada pelo sistema.
+A posição final do trem deve ser o valor final da variável que armazena a posição atual do trem.
+Essas histórias de usuário são escritas de acordo com as melhores práticas para histórias de usuário. Elas são específicas, mensuráveis, atingíveis, relevantes e verificáveis. Elas também são escritas a partir da perspectiva do usuário, o que ajuda a garantir que as necessidades do usuário sejam atendidas.
+
+Aqui estão algumas outras histórias de usuário que podem ser adicionadas:
+
+História de usuário 4
+
+Como um usuário,
+
+Eu quero ser capaz de definir a posição inicial do trem,
+
+Para que eu possa testar cenários com o trem começando em diferentes posições.
+
+Critério de aceitação:
+
+A posição inicial do trem deve ser um número inteiro.
+A posição inicial do trem deve ser maior ou igual a -M e menor ou igual a N.
+História de usuário 5
+
+Como um usuário,
+
+Eu quero ser capaz de definir os limites do trilho numérico,
+
+Para que eu possa testar cenários com trilhos de diferentes tamanhos.
+
+Critério de aceitação:
+
+Os limites do trilho numérico devem ser números inteiros.
+O limite inferior deve ser menor ou igual ao limite superior.
+
+-----------------------------------------------------------------------------------
+
+Ex2
+
+História de usuário 1
+
+Como um usuário,
+
+Eu quero ser capaz de definir os limites do trilho numérico,
+
+Para que eu possa testar cenários com trilhos de diferentes tamanhos.
+
+Critério de aceitação:
+
+Os limites do trilho numérico devem ser números inteiros.
+O limite inferior deve ser menor ou igual ao limite superior.
+
+História de usuário 2
+
+Como um usuário,
+
+Eu quero ser capaz de visualizar a posição atual do trem,
+
+Para que eu possa acompanhar o progresso do trem.
+
+Critério de aceitação:
+
+A posição atual do trem deve ser exibida na tela.
+A posição atual do trem deve ser atualizada a cada comando executado.
+
+História de usuário 3
+
+Como um usuário,
+
+Eu quero ser capaz de obter a posição final do trem,
+
+Para que eu possa determinar o resultado do teste.
+
+Critério de aceitação:
+
+A posição final do trem deve ser retornada pelo sistema.
+A posição final do trem deve ser o valor final da variável que armazena a posição atual do trem.
+
+História de usuário 4
+
+Como um usuário,
+
+Eu quero ser capaz de evitar que o trem extrapole os limites do trilho,
+
+Para que o trem não fique preso ou se mova para fora do trilho.
+
+Critério de aceitação:
+
+O trem não deve extrapolar os limites do trilho, mesmo que receba comandos que o levariam a fazer isso.
+Implementação do código
+
+Para implementar o código de modo que suporte as duas formas de trabalho (trilho infinito e finito), podemos usar as seguintes técnicas:
+
+Criar uma variável para armazenar os limites do trilho numérico.
+Verificar os limites do trilho antes de mover o trem.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Ex3 
+
+História de usuário 1
+
+Como um usuário,
+
+Eu quero ser capaz de definir os limites do trilho numérico,
+
+Para que eu possa testar cenários com trilhos de diferentes tamanhos.
+
+Critério de aceitação:
+
+Os limites do trilho numérico devem ser números inteiros.
+O limite inferior deve ser menor ou igual ao limite superior.
+
+História de usuário 2
+
+Como um usuário,
+
+Eu quero ser capaz de informar a posição inicial do trem,
+
+Para que eu possa testar cenários com o trem começando em diferentes posições.
+
+Critério de aceitação:
+
+A posição inicial do trem deve ser um número inteiro.
+A posição inicial do trem deve estar dentro dos limites do trilho numérico.
+
+História de usuário 3
+
+Como um usuário,
+
+Eu quero ser capaz de informar a lista de comandos completa,
+
+Para que eu possa testar cenários com comandos diferentes.
+
+Critério de aceitação:
+
+A lista de comandos deve ser uma sequência de strings, cada uma das quais representa um comando "DIREITA" ou "ESQUERDA".
+A lista de comandos deve ter um comprimento máximo de 30.
+
+História de usuário 4
+
+Como um usuário,
+
+Eu quero ser capaz de evitar que o trem extrapole os limites do trilho,
+
+Para que o trem não fique preso ou se mova para fora do trilho.
+
+Critério de aceitação:
+
+O trem nunca deve extrapolar os limites do trilho, mesmo que receba comandos que o levariam a fazer isso.
+Estas histórias de usuário são mais específicas e incluem critérios de aceitação mais detalhados. Elas também cobrem todas as mudanças solicitadas.
+
+
+
+
+
